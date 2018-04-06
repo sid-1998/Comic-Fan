@@ -1,0 +1,13 @@
+.carousel {
+  width: 1000px;
+  height: 700px;
+}
+
+body {
+  background: black;
+  color: white !important;
+}
+
+.mynav {
+  color:yellow !important;
+}
