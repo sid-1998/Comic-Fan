@@ -2,12 +2,17 @@
 {% load bootstrap3 %}
 {% block content %}
 
-
+<div class="card text-white bg-dark">
+  <div class="card-body">
     <form class=""  enctype="multipart/form-data" method="POST">
       {% csrf_token %}
 
       {% bootstrap_form user_form %}
       {% bootstrap_form profile_form %}
-      <input type="submit" class="btn btn-default" value="Submit">
+      <input type="submit" class="btn btn-primary" value="Submit">
     </form>
+
+  </div>
+</div>
+
 {% endblock %}

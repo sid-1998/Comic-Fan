@@ -1,4 +1,4 @@
-// SOURCE: http://codepen.io/Thibka/pen/mWGxNj
+
 var canvas = document.getElementById('canvas'),
   context = canvas.getContext('2d'),
   canvasWidth = (window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth),

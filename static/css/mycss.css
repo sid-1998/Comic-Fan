@@ -11,3 +11,8 @@ body {
 .mynav {
   color:yellow !important;
 }
+
+.card {
+  width: 100px;
+  height: 70px;
+}
