@@ -10,4 +10,9 @@
 
       <input type="submit" class="btn btn-default" value="Submit">
     </form>
+    <br>
+    <p> <strong>--OR--</strong> </p>
+    <a href="{% url 'social:begin' 'facebook' %}">Login with Facebook</a><br>
+    <a href="{% url 'social:begin' 'github' %}">Login with GitHub</a><br>
+    <a href="{% url 'social:begin' 'twitter' %}">Login with Twitter</a>
 {% endblock %}
