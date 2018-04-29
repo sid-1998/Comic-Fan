@@ -10,7 +10,7 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/1.11/ref/settings/
 """
 
-from mysite.secrets import *
+from mysite.secret import *
 import os
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
@@ -23,7 +23,7 @@ MEDIA_DIR = os.path.join(BASE_DIR,'media')
 # See https://docs.djangoproject.com/en/1.11/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = ')cw8j9!63ft%6(8@g-&4n!egut*o(^-yn&^0lwxoh7z8_r2lg='
+
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
