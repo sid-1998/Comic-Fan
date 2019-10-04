@@ -9,7 +9,7 @@ var canvas = document.getElementById('canvas'),
   window.msRequestAnimationFrame;
 var persons = [],
   numberOfFirefly = 30,
-  birthToGive = 25;
+  birthToGive = 26;
 
 var colors = [];
 /* Galactic Tea - http://www.colourlovers.com/palette/1586746/Galactic_Tea*/
